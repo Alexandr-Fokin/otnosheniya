@@ -1,12 +1,22 @@
 <footer class="footer">
     <div class="container">
         <div class="footer__inner">
-            <div class="footer__logo">
-                <a href="<?php echo get_permalink(6); ?>">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/footer-logo.png" alt="">
-                </a>
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/footer-bg.svg" alt="" class="footer__bg">
+            <div class="footer__left">
+                <a href="https://kojemeakin.com/consultation/" target="_blank">Наши услуги</a>
             </div>
-            <a href="#">Политика конфиденциальности </a>
+            <div class="footer__center">
+                <div class="footer__logo">
+                    <a href="<?php echo get_permalink(6); ?>">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/footer-logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__right">
+                <a href="https://kojemeakin.com/contacts/" target="_blank">Контакты</a>
+            </div>
+
+
         </div>
     </div>
 

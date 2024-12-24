@@ -9,40 +9,25 @@
 </head>
 
 <body>
-    <nav class="menu-mob" id="menu">
-        <div class="menu-mob__close-btn magic-hover magic-hover__square">
-            <i class="menu-mob__close icon-x"></i>
-        </div>
-        <ul>
-            <div class="menu-mob__title">Меню</div>
-            <ul class="menu-mob__list">
-                <li><a href="<?php echo get_permalink(10); ?>">Главная</a></li>
-                <li><a href="<?php echo get_permalink(10); ?>">Пример</a></li>
-            </ul>
-            <a data-fancybox data-src="#popup__form" class="header__mob-btn magic-hover magic-hover__square">связаться</a>
-        </ul>
-    </nav>
     <main class="slideout-panel" id="panel">
         <header class="header">
             <div class="header__top">
                 <div class="header__inner">
                     <div class="header__top-upper">
                         <div class="header__upper-left">
-                            <div class="header__btn-menu magic-hover magic-hover__square">
-                                <i class="icon-menu1"></i>
-                            </div>
-                            <div class="header__btn-name">Меню</div>
+                            <div class="header__upper-left-descr default-descr">Формат: Курс в записи</div>
                         </div>
-                        <div class="header__upper-center header__logo">
-                            <a href="<?php echo get_permalink(7); ?>">
-                                <div class="header__logo-text">Название сайта</div>
-                            </a>
+                        <div class="add" style="display: none;">
+                            <div class="add__title default-descr">Скидка в 90% актуальна 24 ч.</div>
+                            <div id="timer">
+                                <span id="hours"></span> :
+                                <span id="minutes"></span> :
+                                <span id="seconds"></span>
+                            </div>
+                            <!-- <div class="add__close"></div> -->
                         </div>
                         <div class="header__upper-right">
-                            <a href="" data-fancybox data-src="#popup__call" class="header__btn-call magic-hover magic-hover__square">
-                                <i class="header__btn-call-icon icon-phone"></i>
-                            </a>
-                            <a href="" class="header__btn-connection magic-hover magic-hover__square" data-fancybox data-src="#popup__form">оставить заявку</a>
+                            <div class="header__upper-right-descr default-descr">Старт: сразу после оплаты</div>
                         </div>
                     </div>
                 </div>

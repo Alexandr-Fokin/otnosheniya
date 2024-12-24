@@ -10,15 +10,15 @@ body {
     font-size: clamp(1.5rem, 1.446rem + 0.27vw, 1.875rem);
     font-style: normal;
     font-weight: 700;
-    line-height: 125%;
+    line-height: 135%;
     margin-bottom: 5px;
 }
 @mixin default-subtitle-small {
     color: rgba(70, 31, 153, 0.75);
     font-size: clamp(1.125rem, 1.089rem + 0.18vw, 1.375rem);
     font-style: normal;
-    font-weight: 800;
-    line-height: 125%;
+    font-weight: 700;
+    line-height: 135%;
     margin-bottom: 5px;
 }
 
@@ -36,16 +36,16 @@ body {
     max-width: 615px;
     font-size: clamp(0.875rem, 0.857rem + 0.09vw, 1rem);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 135%;
     color: rgba(70, 31, 153, 0.75);
 }
 
 @mixin default-btn {
-    padding: 8px 28px;
-    border-radius: clamp(0.663rem, 0.536rem + 0.13vw, 0.85rem);
-    border: 2px solid #fff;
-    color: #252525;
+    padding: 7px 45px 9px;
+    border-radius: 500px;
+    border: 2px solid #E343FF;
+    color: #fff;
     font-size: clamp(0.875rem, 0.857rem + 0.09vw, 1rem);
     font-style: normal;
     font-weight: 600;
@@ -60,32 +60,33 @@ body {
     transition: all 0.3s ease-out;
     background: transparent;
     z-index: 3;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
-    color: #252525;
-    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-family: var(--font-dg);
 
     &:hover {
-        color: #fff;
+        color: #E343FF;
     }
     &::after {
         content: "";
         width: 100%;
         height: 100%;
-        background: #fff;
+        background: #E343FF;
         position: absolute;
         bottom: 0;
-        top: auto;
+        top: 0;
         left: 0;
-        right: 0;
+        right: auto;
         transition: all 0.3s ease-out;
         z-index: -1;
-        border-radius: clamp(0.438rem, 0.411rem + 0.13vw, 0.625rem);
+        border-radius: 500px;
     }
     &:hover::after {
-        height: 0;
-        bottom: auto;
-        top: 0;
+        width: 0;
+
+        right: 0;
+        left: auto;
     }
 }
 
@@ -175,7 +176,7 @@ body {
 }
 
 section {
-    padding: clamp(2.188rem, 1.83rem + 1.79vw, 4.688rem) 0;
+    margin: clamp(4.063rem, 3.75rem + 1.56vw, 6.25rem) auto;
 }
 
 @media (max-width: 1480px) {

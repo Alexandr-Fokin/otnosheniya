@@ -24,7 +24,7 @@ Template Name: Главная
             </div>
         </div>
         <div class="container">
-            <div class="header__section-main-title default-title left-title">Отношения</div>
+            <h1 class="header__section-main-title default-title left-title">Отношения</h1>
         </div>
     </div>
     <div class="header__section-bottom">
@@ -113,22 +113,34 @@ Template Name: Главная
         <div class="tariff__inner">
             <h2 class="tariff__title default-title center-title">Тарифы</h2>
             <div class="tariff__block">
-                <div class="tariff__block-sale"></div>
-                <div class="tariff__left">
-                    <h3 class="tariff__left-subtitle default-subtitle-big center-subtitle">Единый тариф</h3>
-                    <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 1. Программа партнера по дате рождения</p>
-                    <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 2. Причины претензий, обид и не пониманий</p>
-                    <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 3. Почему мы перестаем понимать друг друга?</p>
-                    <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 4. Какими должны быть здоровые отношения?</p>
+                <div class="tariff__block-sale">
+                    <div class="add" style="display: none;">
+                        <div class="add__title default-descr">Скидка в 90% актуальна 24 ч.</div>
+                        <div id="timer">
+                            <span id="hours1"></span> :
+                            <span id="minutes1"></span> :
+                            <span id="seconds1"></span>
+                        </div>
+                        <!-- <div class="add__close"></div> -->
+                    </div>
                 </div>
-                <div class="tariff_right">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/tariff-img.webp" alt="">
+                <div class="tariff__block-bottom">
+                    <div class="tariff__left">
+                        <h3 class="tariff__left-subtitle default-subtitle-big center-subtitle">Единый тариф</h3>
+                        <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 1. Программа партнера по дате рождения</p>
+                        <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 2. Причины претензий, обид и не пониманий</p>
+                        <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 3. Почему мы перестаем понимать друг друга?</p>
+                        <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 4. Какими должны быть здоровые отношения?</p>
+                    </div>
+                    <div class="tariff_right">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/tariff-img.webp" alt="">
+                    </div>
                 </div>
             </div>
             <div class="tariff__bonus-subtitle default-subtitle-big center-subtitle">БОНУСЫ</div>
             <div class="tariff__bonus-items">
-                <div class="tariff__bonus-item">Подарок 1 - Формула 13% успешных людей</div>
-                <div class="tariff__bonus-item">Подарок 2 - Личный календарь благополучных дней</div>
+                <div class="tariff__bonus-item default-subtitle-small">Подарок 1 - Формула 13% успешных людей</div>
+                <div class="tariff__bonus-item default-subtitle-small">Подарок 2 - Личный календарь благополучных дней</div>
             </div>
         </div>
     </div>
@@ -137,11 +149,12 @@ Template Name: Главная
 
 <section class="who__section">
     <div class="container">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/who-bg.svg" class="who-bg-img" alt="">
         <div class="who__inner">
             <h2 class="who__title default-title center-title">Кто мы?</h2>
             <div class="who__items">
                 <div class="who__item-left">
-                    <h3 class="who__item-subtitle default-subtitle-big left-subtitle">Василий & Инна <span>КОЖЕМЯКИНЫ</span></h3>
+                    <h3 class="who__item-subtitle default-subtitle-big left-subtitle">Василий & Инна<br><span>КОЖЕМЯКИНЫ</span></h3>
                     <ul class="who__item-list">
                         <li>Дипломированные мастера науки Сюцай</li>
                         <li>Бизнес коучи MINI-MBA</li>
@@ -186,22 +199,22 @@ Template Name: Главная
                 <div class="reviews__bottom-items swiper">
                     <div class="swiper-wrapper">
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-1.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-1.webp" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-2.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-2.webp" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-3.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-3.webp" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-4.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-4.webp" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-5.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-5.webp" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/review-img-6.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-6.webp" alt="">
                         </div>
 
                     </div>
