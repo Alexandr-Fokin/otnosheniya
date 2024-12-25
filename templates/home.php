@@ -147,13 +147,13 @@ Template Name: Главная
 </section>
 
 
-<section class="who__section">
+<section class="who__section" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">
     <div class="container">
         <img src="<?php bloginfo('template_url'); ?>/assets/img/who-bg.svg" class="who-bg-img" alt="">
         <div class="who__inner">
-            <h2 class="who__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Кто мы?</h2>
+            <h2 class="who__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Кто мы?</h2>
             <div class="who__items">
-                <div class="who__item-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                <div class="who__item-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                     <h3 class="who__item-subtitle default-subtitle-big left-subtitle">Василий & Инна<br><span>КОЖЕМЯКИНЫ</span></h3>
                     <ul class="who__item-list">
                         <li>Дипломированные мастера науки Сюцай</li>
@@ -165,7 +165,7 @@ Template Name: Главная
                         <li>Более 100 предпринимателей выросли под нашим руководством</li>
                     </ul>
                 </div>
-                <div class="who__item-right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                <div class="who__item-right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
                     <img class="who__item-img" src="<?php bloginfo('template_url'); ?>/assets/img/who-img.webp" alt="">
                 </div>
             </div>
