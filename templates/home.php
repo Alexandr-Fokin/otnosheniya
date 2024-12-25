@@ -92,17 +92,17 @@ Template Name: Главная
             <h2 class="result__title default-title left-title">Твой результат за 4 урока</h2>
             <div class="result__items">
                 <div class="result__item item-1 item-text default-subtitle-small left-subtitle">Научишься понимать своего партнера</div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-1-1.webp" alt="" class="result__item item-2 item-img">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-1-2.webp" alt="" class="result__item item-3 item-img">
+                <img src="<?php echo the_field('result-1-1') ?>" alt="" class="result__item item-2 item-img">
+                <img src="<?php echo the_field('result-1-2') ?>" alt="" class="result__item item-3 item-img">
                 <div class="result__item item-4 item-text default-subtitle-small left-subtitle">Наладишь близкий контакт с партнером и окружающими</div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-2-1.webp" alt="" class="result__item item-5 item-img">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-2-2.webp" alt="" class="result__item item-6 item-img">
+                <img src="<?php echo the_field('result-2-1') ?>" alt="" class="result__item item-5 item-img">
+                <img src="<?php echo the_field('result-2-2') ?>" alt="" class="result__item item-6 item-img">
                 <div class="result__item item-7 item-text default-subtitle-small left-subtitle">Узнаешь себя лучше и какие цифры на тебя влияют</div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-3-1.webp" alt="" class="result__item item-8 item-img">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-3-2.webp" alt="" class="result__item item-9 item-img">
+                <img src="<?php echo the_field('result-3-1') ?>" alt="" class="result__item item-8 item-img">
+                <img src="<?php echo the_field('result-3-2') ?>" alt="" class="result__item item-9 item-img">
                 <div class="result__item item-10 item-text default-subtitle-small left-subtitle">Получишь разбор по твоей дате рождения</div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-4-1.webp" alt="" class="result__item item-11 item-img">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/result-img-4-2.webp" alt="" class="result__item item-12 item-img">
+                <img src="<?php echo the_field('result-4-1') ?>" alt="" class="result__item item-11 item-img">
+                <img src="<?php echo the_field('result-4-2') ?>" alt="" class="result__item item-12 item-img">
             </div>
         </div>
     </div>
