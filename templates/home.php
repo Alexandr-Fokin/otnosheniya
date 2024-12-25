@@ -14,13 +14,13 @@ Template Name: Главная
     <div class="header__section-top">
         <div class="header__section-top-bg">
             <div class="header__section-img-cover">
-                <img class="header__section-bg-img img-left" src="<?php bloginfo('template_url'); ?>/assets/img/head-img-1.webp" alt="">
+                <img class="header__section-bg-img img-left" src="<?php echo the_field('header-photo-left') ?>" alt="">
             </div>
             <div class="header__section-img-cover">
-                <img class="header__section-bg-img img-center" src="<?php bloginfo('template_url'); ?>/assets/img/head-img-2.webp" alt="">
+                <img class="header__section-bg-img img-center" src="<?php echo the_field('header-photo-center') ?>" alt="">
             </div>
             <div class="header__section-img-cover">
-                <img class="header__section-bg-img img-right" src="<?php bloginfo('template_url'); ?>/assets/img/head-img-3.webp" alt="">
+                <img class="header__section-bg-img img-right" src="<?php echo the_field('header-photo-right') ?>" alt="">
             </div>
         </div>
         <div class="container">
