@@ -133,7 +133,7 @@ Template Name: Главная
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 4. Какими должны быть здоровые отношения?</p>
                     </div>
                     <div class="tariff_right">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/tariff-img.webp" alt="">
+                        <img src="<?php echo the_field('tariff-img') ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -199,22 +199,22 @@ Template Name: Главная
                 <div class="reviews__bottom-items swiper">
                     <div class="swiper-wrapper">
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-1.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-1') ?>" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-2.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-2') ?>" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-3.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-3') ?>" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-4.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-4') ?>" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-5.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-5') ?>" alt="">
                         </div>
                         <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/review-img-6.webp" alt="">
+                            <img class="fancybox-open-img" src="<?php echo the_field('review-6') ?>" alt="">
                         </div>
 
                     </div>
