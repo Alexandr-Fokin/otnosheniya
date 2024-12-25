@@ -33,7 +33,7 @@ body {
             h1 {
                 margin-bottom: 15px;
                 color: #fff;
-                font-size: clamp(2.188rem, 1.161rem + 5.13vw, 9.375rem);
+                font-size: clamp(2.375rem, 1.375rem + 5vw, 9.375rem);
             }
         }
         .header__section-top-bg {
@@ -88,7 +88,7 @@ body {
         height: 70vh !important;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 430px) {
     .header__section {
         .header__section-top-bg {
             grid-template-columns: 1fr !important;
@@ -291,6 +291,7 @@ body {
             grid-column: 1 / 2 !important;
             grid-row: auto !important;
         }
+
     }
 }
 .tariff__block {
