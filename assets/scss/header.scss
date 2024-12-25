@@ -190,6 +190,13 @@ grid-template-columns: 1fr 2fr 1fr;
 }
 
 @media(max-width:480px) {
+    
+    .header__top {
+        padding: 0 20px;
+        padding-top: 15px;
+    }
+}
+@media(max-width:430px) {
     .header__top-upper {
         grid-template-columns: 1fr;
 
@@ -210,9 +217,5 @@ grid-template-columns: 1fr 2fr 1fr;
             justify-content: center;
             align-items: center;
         }
-    }
-    .header__top {
-        padding: 0 20px;
-        padding-top: 15px;
     }
 }
