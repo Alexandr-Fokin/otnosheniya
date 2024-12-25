@@ -11,8 +11,8 @@ Template Name: Главная
 
 
 <section class="header__section">
-    <div class="header__section-top">
-        <div class="header__section-top-bg">
+    <div class="header__section-top" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+        <div class="header__section-top-bg" >
             <div class="header__section-img-cover">
                 <img class="header__section-bg-img img-left" src="<?php echo the_field('header-photo-left') ?>" alt="">
             </div>
@@ -27,7 +27,7 @@ Template Name: Главная
             <h1 class="header__section-main-title default-title left-title">Отношения</h1>
         </div>
     </div>
-    <div class="header__section-bottom">
+    <div class="header__section-bottom" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
         <div class="container">
             <div class="header__section-descr default-descr">Возроди любовь и гармонию в отношениях за 4 урока! Узнай, каквосстановить прежнюю связь и построить крепкие отношения,используя цифры, которые влияют на тебя и твоего партнера.Получи ключи к счастливым отношениям</div>
             <a href="<?php echo get_permalink(12); ?>" class="header__section-btn default-btn">узнать больше</a>
@@ -39,8 +39,8 @@ Template Name: Главная
 <section class="for-you__section">
     <div class="container">
         <div class="for-you__inner">
-            <h2 class="for-you__title default-title center-title">Это для тебя, если:</h2>
-            <div class="for-you__items">
+            <h2 class="for-you__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="000">Это для тебя, если:</h2>
+            <div class="for-you__items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                 <div class="for-you__item item-1">
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">1</div>
@@ -89,8 +89,8 @@ Template Name: Главная
 <section class="result__section">
     <div class="container">
         <div class="result__inner">
-            <h2 class="result__title default-title left-title">Твой результат за 4 урока</h2>
-            <div class="result__items">
+            <h2 class="result__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Твой результат за 4 урока</h2>
+            <div class="result__items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                 <div class="result__item item-1 item-text default-subtitle-small left-subtitle">Научишься понимать своего партнера</div>
                 <img src="<?php echo the_field('result-1-1') ?>" alt="" class="result__item item-2 item-img">
                 <img src="<?php echo the_field('result-1-2') ?>" alt="" class="result__item item-3 item-img">

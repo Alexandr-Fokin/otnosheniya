@@ -13,7 +13,7 @@
         <header class="header">
             <div class="header__top">
                 <div class="header__inner">
-                    <div class="header__top-upper">
+                    <div class="header__top-upper" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">
                         <div class="header__upper-left">
                             <div class="header__upper-left-descr default-descr">Формат: Курс в записи</div>
                         </div>
