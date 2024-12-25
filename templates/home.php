@@ -40,8 +40,8 @@ Template Name: Главная
     <div class="container">
         <div class="for-you__inner">
             <h2 class="for-you__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="000">Это для тебя, если:</h2>
-            <div class="for-you__items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                <div class="for-you__item item-1">
+            <div class="for-you__items">
+                <div class="for-you__item item-1" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">1</div>
                         <div class="for-you__item-top-subtitle default-subtitle-small left-subtitle">Твои отношения уже не те, что были раньше</div>
@@ -51,7 +51,7 @@ Template Name: Главная
                     </div>
                 </div>
 
-                <div class="for-you__item item-2">
+                <div class="for-you__item item-2" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">2</div>
                         <div class="for-you__item-top-subtitle default-subtitle-small left-subtitle">Тебе не хватает понимание со стороны партнера</div>
@@ -61,7 +61,7 @@ Template Name: Главная
                     </div>
                 </div>
 
-                <div class="for-you__item item-3">
+                <div class="for-you__item item-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"> 
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">3</div>
                         <div class="for-you__item-top-subtitle default-subtitle-small left-subtitle">Вы часто соритесь даже по пустякам и мелочам</div>
@@ -71,7 +71,7 @@ Template Name: Главная
                     </div>
                 </div>
 
-                <div class="for-you__item item-4">
+                <div class="for-you__item item-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">4</div>
                         <div class="for-you__item-top-subtitle default-subtitle-small left-subtitle">Тут будет что-то еще в 3 строки, чтобы красивее</div>
@@ -111,9 +111,9 @@ Template Name: Главная
 <section class="tariff__section">
     <div class="container">
         <div class="tariff__inner">
-            <h2 class="tariff__title default-title center-title">Тарифы</h2>
-            <div class="tariff__block">
-                <div class="tariff__block-sale">
+            <h2 class="tariff__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Тарифы</h2>
+            <div class="tariff__block" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                <div class="tariff__block-sale" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                     <div class="add" style="display: none;">
                         <div class="add__title default-descr">Скидка в 90% актуальна 24 ч.</div>
                         <div id="timer">
@@ -125,22 +125,22 @@ Template Name: Главная
                     </div>
                 </div>
                 <div class="tariff__block-bottom">
-                    <div class="tariff__left">
+                    <div class="tariff__left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
                         <h3 class="tariff__left-subtitle default-subtitle-big center-subtitle">Единый тариф</h3>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 1. Программа партнера по дате рождения</p>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 2. Причины претензий, обид и не пониманий</p>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 3. Почему мы перестаем понимать друг друга?</p>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 4. Какими должны быть здоровые отношения?</p>
                     </div>
-                    <div class="tariff_right">
+                    <div class="tariff_right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
                         <img src="<?php echo the_field('tariff-img') ?>" alt="">
                     </div>
                 </div>
             </div>
-            <div class="tariff__bonus-subtitle default-subtitle-big center-subtitle">БОНУСЫ</div>
+            <div class="tariff__bonus-subtitle default-subtitle-big center-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">БОНУСЫ</div>
             <div class="tariff__bonus-items">
-                <div class="tariff__bonus-item default-subtitle-small">Подарок 1 - Формула 13% успешных людей</div>
-                <div class="tariff__bonus-item default-subtitle-small">Подарок 2 - Личный календарь благополучных дней</div>
+                <div class="tariff__bonus-item default-subtitle-small" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Подарок 1 - Формула 13% успешных людей</div>
+                <div class="tariff__bonus-item default-subtitle-small" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Подарок 2 - Личный календарь благополучных дней</div>
             </div>
         </div>
     </div>
@@ -151,9 +151,9 @@ Template Name: Главная
     <div class="container">
         <img src="<?php bloginfo('template_url'); ?>/assets/img/who-bg.svg" class="who-bg-img" alt="">
         <div class="who__inner">
-            <h2 class="who__title default-title center-title">Кто мы?</h2>
+            <h2 class="who__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Кто мы?</h2>
             <div class="who__items">
-                <div class="who__item-left">
+                <div class="who__item-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                     <h3 class="who__item-subtitle default-subtitle-big left-subtitle">Василий & Инна<br><span>КОЖЕМЯКИНЫ</span></h3>
                     <ul class="who__item-list">
                         <li>Дипломированные мастера науки Сюцай</li>
@@ -165,7 +165,7 @@ Template Name: Главная
                         <li>Более 100 предпринимателей выросли под нашим руководством</li>
                     </ul>
                 </div>
-                <div class="who__item-right">
+                <div class="who__item-right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                     <img class="who__item-img" src="<?php bloginfo('template_url'); ?>/assets/img/who-img.webp" alt="">
                 </div>
             </div>
@@ -179,8 +179,8 @@ Template Name: Главная
 <section class="why__section">
     <div class="container">
         <div class="why__inner">
-            <h2 class="why__title default-title left-title">Зачем мы создали этот продукт?</h2>
-            <div class="why__descr default-subtitle-small left-subtitle">Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Pellentesque in sollicitudin erat, vitae pellentesque nulla. Nullam luctus ullamcorper cursus. <span>Phasellus venenatis</span> ultricies est, in fermentum nisi. Nullam iaculis rutrum dolor, id feugiat justo elementum nec. Morbi semper cursus mollis. Nunc mollis nulla est, quis sollicitudin lorem ultrices non. Suspendisse vel turpis dapibus tortor maximus placerat condimentum in sem. <span>Sed eleifend, sapien vel</span> efficitur aliquet, lacus ex auctor dolor, sed interdum lorem dolor pellentesque nisl. </div>
+            <h2 class="why__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Зачем мы создали этот продукт?</h2>
+            <div class="why__descr default-subtitle-small left-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Pellentesque in sollicitudin erat, vitae pellentesque nulla. Nullam luctus ullamcorper cursus. <span>Phasellus venenatis</span> ultricies est, in fermentum nisi. Nullam iaculis rutrum dolor, id feugiat justo elementum nec. Morbi semper cursus mollis. Nunc mollis nulla est, quis sollicitudin lorem ultrices non. Suspendisse vel turpis dapibus tortor maximus placerat condimentum in sem. <span>Sed eleifend, sapien vel</span> efficitur aliquet, lacus ex auctor dolor, sed interdum lorem dolor pellentesque nisl. </div>
         </div>
     </div>
 </section>
@@ -189,13 +189,13 @@ Template Name: Главная
     <div class="container">
         <div class="reviews__inner">
             <div class="reviews__top">
-                <h2 class="reviews__title default-title left-title">Наши отзывы</h2>
-                <div class="reviews__btns">
+                <h2 class="reviews__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Наши отзывы</h2>
+                <div class="reviews__btns" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
             </div>
-            <div class="reviews__bottom">
+            <div class="reviews__bottom" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                 <div class="reviews__bottom-items swiper">
                     <div class="swiper-wrapper">
                         <div class="reviews__bottom-item swiper-slide">
@@ -228,8 +228,8 @@ Template Name: Главная
 <section class="questions__section">
     <div class="container">
         <div class="questions__inner">
-            <h2 class="questions__title default-title center-title">Частые вопросы</h2>
-            <div class="questions__items">
+            <h2 class="questions__title default-title center-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">Частые вопросы</h2>
+            <div class="questions__items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
                 <div class="questions__item">
                     <div class="questions__item-top-white default-subtitle-big left-subtitle">Как будет проходить курс?</div>
                     <div class="questions__item-bottom-white default-descr left-descr" style="display: none;">
