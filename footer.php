@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
     <div class="container">
         <div class="footer__inner">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/footer-bg.svg" alt="" class="footer__bg">
