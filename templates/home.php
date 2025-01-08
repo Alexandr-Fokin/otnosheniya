@@ -12,7 +12,7 @@ Template Name: Главная
 
 <section class="header__section">
     <div class="header__section-top" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-        <div class="header__section-top-bg" >
+        <div class="header__section-top-bg">
             <div class="header__section-img-cover">
                 <img class="header__section-bg-img img-left" src="<?php echo the_field('header-photo-left') ?>" alt="">
             </div>
@@ -29,7 +29,7 @@ Template Name: Главная
     </div>
     <div class="header__section-bottom" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
         <div class="container">
-            <div class="header__section-descr default-descr">Возроди любовь и гармонию в отношениях за 4 урока! Узнай, каквосстановить прежнюю связь и построить крепкие отношения,используя цифры, которые влияют на тебя и твоего партнера.Получи ключи к счастливым отношениям</div>
+            <div class="header__section-descr default-descr">Возроди любовь и гармонию в отношениях за 4 урока! Узнай, каквосстановить прежнюю связь и построить крепкие отношения,используя цифры, которые влияют на тебя и твоего партнера. Получи ключи к счастливым отношениям</div>
             <a href="<?php echo get_permalink(12); ?>" class="header__section-btn default-btn">узнать больше</a>
         </div>
     </div>
