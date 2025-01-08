@@ -86,6 +86,7 @@ Template Name: Главная
     </div>
 </section>
 
+
 <section class="result__section">
     <div class="container">
         <div class="result__inner">
@@ -107,6 +108,7 @@ Template Name: Главная
         </div>
     </div>
 </section>
+
 
 <section class="tariff__section">
     <div class="container">
@@ -184,6 +186,7 @@ Template Name: Главная
         </div>
     </div>
 </section>
+
 
 <section class="reviews__section">
     <div class="container">
@@ -275,8 +278,6 @@ Template Name: Главная
         </div>
     </div>
 </section>
-
-
 
 
 
