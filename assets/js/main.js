@@ -167,7 +167,11 @@ const countdownInterval1 = setInterval(countdown1, 1000);
 
 
 $(window).on('load', function () {
-  AOS.init();
+  AOS.init({
+   
+    once: true, // whether animation should happen only once - while scrolling down
+    
+  });
 
   document.querySelector('.add__close').addEventListener('click', function () {
     document.querySelector('.add').classList.add('close');
