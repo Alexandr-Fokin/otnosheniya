@@ -270,6 +270,12 @@ body {
         .item-8,
         .item-12 {
             grid-column: 2 / 3 !important;
+            filter: grayscale(100%) brightness(65%) sepia(1) hue-rotate(210deg);
+            transition: all .3s ease-out;
+
+            &:hover {
+                filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
+            }
         }
     }
 }

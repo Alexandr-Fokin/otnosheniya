@@ -247,6 +247,14 @@ body {
   .result__items .item-8,
   .result__items .item-12 {
     grid-column: 2/3 !important;
+    filter: grayscale(100%) brightness(65%) sepia(1) hue-rotate(210deg);
+    transition: all 0.3s ease-out;
+  }
+  .result__items .item-2:hover,
+  .result__items .item-6:hover,
+  .result__items .item-8:hover,
+  .result__items .item-12:hover {
+    filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
   }
 }
 @media (max-width: 480px) {
