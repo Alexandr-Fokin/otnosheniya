@@ -194,7 +194,7 @@ body {
             transition: all .3s ease-out;
 
             &:hover {
-                filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
+                filter: none !important; /* Оригинальное изображение по умолчанию */
             }
         }
         &.item-4 {
@@ -210,7 +210,7 @@ body {
             transition: all .3s ease-out;
 
             &:hover {
-                filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
+                filter: none !important; /* Оригинальное изображение по умолчанию */
             }
         }
         &.item-7 {
@@ -223,7 +223,7 @@ body {
             transition: all .3s ease-out;
 
             &:hover {
-                filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
+                filter: none !important; /* Оригинальное изображение по умолчанию */
             }
         }
         &.item-10 {
@@ -240,7 +240,7 @@ body {
             transition: all .3s ease-out;
 
             &:hover {
-                filter: grayscale(0%) brightness(100%); /* Оригинальное изображение по умолчанию */
+                filter: none !important; /* Оригинальное изображение по умолчанию */
             }
         }
 
