@@ -200,7 +200,7 @@ Template Name: Главная
             <h2 class="reviews__title default-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Отзывы</h2>
             <!-- <p class="reviews__descr default-descr-black">Доверьтесь опыту и впечатлениям наших клиентов, чтобы убедиться в эффективности наших программ и подхода к работе.</p> -->
             <div class="reviews__audio" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                <p class="reviews__descr default-descr-black">Отзыв можно послушать:</p>
+                <p class="reviews__descr default-descr">Отзыв можно послушать:</p>
                 <audio controls="controls">
                     <source src="<?php bloginfo('template_url'); ?>/assets/mp3/audio-review.ogg" type="audio/ogg" />
                     Your browser does not support the audio element.
