@@ -452,6 +452,10 @@ body {
     padding: clamp(2.188rem, 0.625rem + 5.21vw, 6.25rem) 0;
     position: relative;
 
+    .reviews__title {
+        margin-bottom: 15px !important;
+    }
+
     svg {
         position: absolute;
         right: 0;

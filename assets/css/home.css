@@ -415,6 +415,9 @@ body {
   padding: clamp(2.188rem, 0.625rem + 5.21vw, 6.25rem) 0;
   position: relative;
 }
+.reviews__section .reviews__title {
+  margin-bottom: 15px !important;
+}
 .reviews__section svg {
   position: absolute;
   right: 0;
