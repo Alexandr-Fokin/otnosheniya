@@ -91,6 +91,13 @@ if ($('.questions__item')) {
     });
   });
 }
+if ($('.reviews__text-item')) {
+  document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.reviews__text-item').forEach(b => b.addEventListener('click', () => {
+      b.classList.toggle('open')
+  }))
+})
+}
 
 
 // Устанавливаем конечную дату один раз
@@ -297,10 +304,10 @@ Fancybox.bind(".fancybox-open-img", {
 });
 
 
-// Открытие страницы "Спасибо" при отправке контактной формы
-document.addEventListener('wpcf7mailsent', function (event) {
-  location = 'https://example.com/thanks/';
-}, false);
+// // Открытие страницы "Спасибо" при отправке контактной формы
+// document.addEventListener('wpcf7mailsent', function (event) {
+//   location = 'https://example.com/thanks/';
+// }, false);
 
 
 
