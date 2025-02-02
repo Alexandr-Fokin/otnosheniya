@@ -44,42 +44,43 @@ if (document.querySelector('.homepage')) {
 }
 
 
+function swiperRev() {
+  if (document.querySelector(".reviews__items")) {
+    var swiperRev = new Swiper(".reviews__items", {
+      slidesPerView: "1.3",
+      spaceBetween: 20,
+      breakpoints: {
+        640: {
+          slidesPerView: "2",
+          spaceBetween: 20,
+        },
+        800: {
+          slidesPerView: "3",
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: "4.2",
+          spaceBetween: 20,
+        },
+        1280: {
+          slidesPerView: "5",
+          spaceBetween: 20,
+        },
+      },
 
-// Обычный слайдер SwiperJS
-if (document.querySelector(".reviews__bottom-items")) {
-  var swiperDes = new Swiper(".reviews__bottom-items", {
-    slidesPerView: "1.3",
-    spaceBetween: 20,
-    breakpoints: {
-      550: {
-        slidesPerView: "2.3",
-        spaceBetween: 20,
+      navigation: {
+        nextEl: ".reviews__section .swiper-button-next",
+        prevEl: ".reviews__section .swiper-button-prev",
       },
-      650: {
-        slidesPerView: "3",
-        spaceBetween: 20,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false
       },
-      800: {
-        slidesPerView: "4",
-        spaceBetween: 20,
-      },
-      1050: {
-        slidesPerView: "5",
-        spaceBetween: 20,
-      },
-    },
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    keyboard: {
-      enabled: true,
-      onlyInViewport: false
-    },
-    loop: true,
-  });
+      loop: true,
+    });
+  };
 };
+swiperRev();
 
 
 if ($('.questions__item')) {

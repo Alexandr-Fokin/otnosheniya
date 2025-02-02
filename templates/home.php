@@ -188,44 +188,114 @@ Template Name: Главная
 </section>
 
 
-<section class="reviews__section">
+
+
+<section class="reviews__section default-section">
+    <svg width="481" height="268" viewBox="0 0 481 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="313" cy="313" r="313" fill="white" fill-opacity="0.15" />
+        <circle cx="313" cy="313" r="310.5" stroke="white" stroke-opacity="0.75" stroke-width="5" stroke-dasharray="20 15" />
+    </svg>
     <div class="container">
         <div class="reviews__inner">
-            <div class="reviews__top">
-                <h2 class="reviews__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Наши отзывы</h2>
-                <div class="reviews__btns" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
+            <h2 class="reviews__title default-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Отзывы</h2>
+            <!-- <p class="reviews__descr default-descr-black">Доверьтесь опыту и впечатлениям наших клиентов, чтобы убедиться в эффективности наших программ и подхода к работе.</p> -->
+            <div class="reviews__audio" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                <p class="reviews__descr default-descr-black">Отзыв можно послушать:</p>
+                <audio controls="controls">
+                    <source src="<?php bloginfo('template_url'); ?>/assets/mp3/audio-review.ogg" type="audio/ogg" />
+                    Your browser does not support the audio element.
+                </audio>
             </div>
-            <div class="reviews__bottom" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-                <div class="reviews__bottom-items swiper">
+            <div class="reviews__swiper-box" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                <div class="reviews__items swiper">
                     <div class="swiper-wrapper">
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-1') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r1.webp?v=1.2" alt="отзыв">
                         </div>
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-2') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r2.webp?v=1.2" alt="отзыв">
                         </div>
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-3') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r3.webp?v=1.2" alt="отзыв">
                         </div>
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-4') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r4.webp?v=1.2" alt="отзыв">
                         </div>
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-5') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r5.webp?v=1.2" alt="отзыв">
                         </div>
-                        <div class="reviews__bottom-item swiper-slide">
-                            <img class="fancybox-open-img" src="<?php echo the_field('review-6') ?>" alt="">
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r6.webp?v=1.2" alt="отзыв">
                         </div>
-
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r7.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r8.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r9.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r10.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r11.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r12.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r13.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r14.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r15.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r16.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r17.webp?v=1.2" alt="отзыв">
+                        </div>
+                        <div class="reviews__item swiper-slide">
+                            <img class="fancybox-open-img" src="<?php bloginfo('template_url'); ?>/assets/img/r18.webp?v=1.2" alt="отзыв">
+                        </div>
                     </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="reviews__text-items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                <div class="reviews__text-title">Другие отзывы:</div>
+                <div class="reviews__text-item">
+                    <p class="hidden">Дорогие мои наставники Василий и Инна. Хочу выразить глубокую признательность за вдохновляющее наставничество в области науки Сюцай.</p>
+                    <p class="hidden"> Ваша экспертность , страсть к знанию и способность делиться ими со мной были для меня источником непередаваемой мотивации . Ваше терпение и тщательность в объяснении сложных ситуаций сделали учебный пресс захватывающим и понятным . Благодаря вам я поняла свои слабые и сильные стороны. Я открыла для себя новые горизонты ...</p>
+                    <p>Дорогие мои наставники Василий и Инна. Хочу выразить глубокую признательность за вдохновляющее наставничество в области науки Сюцай.</p>
+                    <p>Ваша экспертность , страсть к знанию и способность делиться ими со мной были для меня источником непередаваемой мотивации . Ваше терпение и тщательность в объяснении сложных ситуаций сделали учебный пресс захватывающим и понятным . Благодаря вам я поняла свои слабые и сильные стороны. Я открыла для себя новые горизонты , я стала уверенной в себе , я освоила новые навыки в общении с людьми . </p>
+                    <p>Ваше наставничество оказало на меня глубокое влияние и ценный вклад в мое развитие . Спасибо большое за вдохновение и веру в мои способности .🙏❤️🎈🍾🎊🎉🍾🎈🍾</p>
+                    <button class="reviews__text-item-more">Показать еще</button>
+                </div>
+                <div class="reviews__text-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                    <p class="hidden">Почему КОУЧИНГ через науку Сюцай, с парой Василий и Инна Кожемякины?!</p>
+                    <p class="hidden">Приходя в Коучинге, для меня открылось совсем другое осознание себя, осознание своей программы через число сознания и число миссии. Поняла почему я так действую, реагирую и какие действия нужно делать чтобы мне выйти из свою субъективную реальность в объективную.</p>
+                    <p class="hidden">Этот Коучинг - показал мне, для чего нужна дисциплина тела и ума, если хочешь реально что то изменить ...</p>
+                    <p>Почему КОУЧИНГ через науку Сюцай, с парой Василий и Инна Кожемякины?!</p>
+                    <p>Приходя в Коучинге, для меня открылось совсем другое осознание себя, осознание своей программы через число сознания и число миссии. Поняла почему я так действую, реагирую и какие действия нужно делать чтобы мне выйти из свою субъективную реальность в объективную.</p>
+                    <p>Этот Коучинг - показал мне, для чего нужна дисциплина тела и ума, если хочешь реально что то изменить, создать, материализовать и ещё какие персональные и профессиональные компетенций нужно у себя нарабатывать чтобы достичь желаемого результата. В течение Коучинга - приходит понимание своих не осознанных действий и то что у тебя отсутствует личной власти прежде всего над самим собой, и почему очень важна - ДИСЦИПЛИНА?!</p>
+                    <p>Рекомендую ТРЕНЕРОВ коучинга, пару ВАСИЛИЙ и ИННА КОЖЕМЯКИНЫ, потому что они очень явный пример того как придти к пониманию себя и объективного понимания друг друга и как вместе можно создать удивительные и во благо проекты и материализовать свои потенциал, который есть в каждом из нас.</p>
+                    <p>Низкий поклон вам, Василий и Инна, что открыли и показывайте какая ценность является для нас, наше жизнь и почему нужно прожить её, осознанно!🌞♥️</p>
+                    <button class="reviews__text-item-more">Показать еще</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 
 <section class="questions__section">
