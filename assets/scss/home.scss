@@ -39,7 +39,7 @@ body {
         .header__section-top-bg {
             width: 100%;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
             height: 100%;
             overflow: hidden;
             border-radius: 20px;
@@ -71,7 +71,7 @@ body {
 @media (max-width: 800px) {
     .header__section {
         .header__section-top-bg {
-            grid-template-columns: 1fr 1fr !important;
+            grid-template-columns: 1fr !important;
 
             & > div:last-child {
                 display: none;
