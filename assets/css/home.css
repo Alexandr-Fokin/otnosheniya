@@ -22,7 +22,7 @@ body {
 }
 .header__section .header__section-top {
   position: relative;
-  height: 80vh;
+  height: 90vh;
 }
 .header__section .header__section-top > .container {
   height: 100%;
