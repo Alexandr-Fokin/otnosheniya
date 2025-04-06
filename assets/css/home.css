@@ -53,6 +53,7 @@ body {
   margin-top: clamp(0.938rem, 0.848rem + 0.45vw, 1.563rem);
   margin-bottom: clamp(2.188rem, 2.098rem + 0.45vw, 2.813rem);
   max-width: 65%;
+  font-size: clamp(1.125rem, 1.107rem + 0.09vw, 1.25rem) !important;
 }
 .header__section .header__section-img-cover {
   overflow: hidden;
