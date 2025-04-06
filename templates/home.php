@@ -23,7 +23,7 @@ Template Name: Главная
     </div>
     <div class="header__section-bottom" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
         <div class="container">
-            <div class="header__section-descr default-descr">Возроди любовь и гармонию в отношениях за 4 урока! Узнай, каквосстановить прежнюю связь и построить крепкие отношения,используя цифры, которые влияют на тебя и твоего партнера. Получи ключи к счастливым отношениям</div>
+            <div class="header__section-descr default-descr">Возроди любовь и гармонию в паре за 4 дня. Разбери по цифрам себя и своего партнера — и пойми, как строить отношения, где есть поддержка, близость и доверие. Без упреков и недопониманий.</div>
             <a href="#tariff" class="header__section-btn default-btn">узнать больше</a>
         </div>
     </div>
@@ -55,7 +55,7 @@ Template Name: Главная
                     </div>
                 </div>
 
-                <div class="for-you__item item-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"> 
+                <div class="for-you__item item-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
                     <div class="for-you__item-top">
                         <div class="for-you__item-top-num default-title left-title">3</div>
                         <div class="for-you__item-top-subtitle default-subtitle-small left-subtitle">Вы часто соритесь даже по пустякам и мелочам</div>
@@ -176,8 +176,7 @@ Template Name: Главная
     <div class="container">
         <div class="why__inner">
             <h2 class="why__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Зачем мы создали этот продукт?</h2>
-            <div class="why__descr default-subtitle-small left-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Мы сделали этот продукт, чтобы каждый из вас мог применить науку Сюцай в своих отношениях — и наконец-то зажить по-настоящему в любви, понимании и гармонии.
-Чтобы вы увидели, почему вы сталкиваетесь с конфликтами, что мешает быть ближе, и как исправить это без упрёков, боли и обвинений.</div>
+            <div class="why__descr default-subtitle-small left-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Мы сделали этот продукт, чтобы каждый из вас мог применить науку Сюцай в своих отношениях — и наконец-то зажить по-настоящему в любви, понимании и гармонии. Чтобы вы увидели, почему вы сталкиваетесь с конфликтами, что мешает быть ближе, и как исправить это без упрёков, боли и обвинений.</div>
         </div>
     </div>
 </section>
