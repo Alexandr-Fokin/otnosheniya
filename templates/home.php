@@ -176,7 +176,8 @@ Template Name: Главная
     <div class="container">
         <div class="why__inner">
             <h2 class="why__title default-title left-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">Зачем мы создали этот продукт?</h2>
-            <div class="why__descr default-subtitle-small left-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Pellentesque in sollicitudin erat, vitae pellentesque nulla. Nullam luctus ullamcorper cursus. <span>Phasellus venenatis</span> ultricies est, in fermentum nisi. Nullam iaculis rutrum dolor, id feugiat justo elementum nec. Morbi semper cursus mollis. Nunc mollis nulla est, quis sollicitudin lorem ultrices non. Suspendisse vel turpis dapibus tortor maximus placerat condimentum in sem. <span>Sed eleifend, sapien vel</span> efficitur aliquet, lacus ex auctor dolor, sed interdum lorem dolor pellentesque nisl. </div>
+            <div class="why__descr default-subtitle-small left-subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Мы сделали этот продукт, чтобы каждый из вас мог применить науку Сюцай в своих отношениях — и наконец-то зажить по-настоящему в любви, понимании и гармонии.
+Чтобы вы увидели, почему вы сталкиваетесь с конфликтами, что мешает быть ближе, и как исправить это без упрёков, боли и обвинений.</div>
         </div>
     </div>
 </section>
