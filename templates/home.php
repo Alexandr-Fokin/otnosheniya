@@ -131,8 +131,8 @@ Template Name: Главная
                         <div class="tariff__left-price-block">
                             <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-old">150€</p>
                             <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-current">15€</p>
-                            <a href="#" class="header__section-btn default-btn">Хочу курс!</a>
                         </div>
+                        <a href="#" class="header__section-btn default-btn">Хочу курс!</a>
                     </div>
                     <div class="tariff_right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
                         <img src="<?php echo the_field('tariff-img') ?>" alt="">
