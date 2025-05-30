@@ -127,12 +127,15 @@ Template Name: Главная
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 2. Причины претензий, обид и не пониманий</p>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 3. Почему мы перестаем понимать друг друга?</p>
                         <p class="tariff__left-descr default-subtitle-small left-subtitle">Урок 4. Какими должны быть здоровые отношения?</p>
-                        <p class="tariff__left-descr default-subtitle-small left-subtitle">Курс "Отношения"</p>
-                        <div class="tariff__left-price-block">
-                            <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-old">150€</p>
-                            <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-current">15€</p>
+                        <div class="tariff__left-product-block">
+                            <p class="tariff__left-descr default-subtitle-small left-subtitle">Курс "Отношения"</p>
+                            <div class="tariff__left-price-block">
+                                <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-old">150€</p>
+                                <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-current">15€</p>
+                            </div>
+                            <a href="#" class="header__section-btn default-btn">Хочу курс!</a>
                         </div>
-                        <a href="#" class="header__section-btn default-btn">Хочу курс!</a>
+
                     </div>
                     <div class="tariff_right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
                         <img src="<?php echo the_field('tariff-img') ?>" alt="">
