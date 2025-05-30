@@ -133,7 +133,7 @@ Template Name: Главная
                                 <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-old">150€</p>
                                 <p class="tariff__left-subtitle default-subtitle-big left-subtitle price-current">15€</p>
                             </div>
-                            <a href="#" class="header__section-btn default-btn">Хочу курс!</a>
+                            <a href="https://buy.stripe.com/7sY00kgh40zQeUv6n44gg07" target="_blank" class="header__section-btn default-btn">Хочу курс!</a>
                         </div>
 
                     </div>
