@@ -328,11 +328,12 @@ body {
   padding: 20px;
   box-shadow: 0px 2px 10px 0px rgba(70, 31, 153, 0.15);
   margin-top: 15px;
-  width: 50%;
+  min-width: 70%;
 }
 .tariff__block .tariff__block-bottom .tariff__left-product-block .tariff__left-descr {
   font-size: clamp(0.875rem, 0.857rem + 0.09vw, 1rem) !important;
   font-weight: 400;
+  margin: 0 !important;
 }
 .tariff__block .tariff__block-bottom .tariff__left-product-block .tariff__left-price-block {
   display: flex;
@@ -340,6 +341,9 @@ body {
   gap: 5px;
   justify-content: center;
   align-items: center;
+}
+.tariff__block .tariff__block-bottom .tariff__left-product-block .tariff__left-price-block > p {
+  margin: 0 !important;
 }
 .tariff__block .tariff__block-bottom .tariff__left-product-block .tariff__left-price-block .price-old {
   opacity: 0.35;
