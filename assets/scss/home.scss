@@ -358,14 +358,15 @@ body {
             min-width: 70%;
             .tariff__left-descr {
                 font-size: clamp(0.875rem, 0.857rem + 0.09vw, 1rem) !important;
-                font-weight: 400;
+                font-weight: 500;
+                opacity: .5;
                 margin: 0 !important;
             }
 
             .tariff__left-price-block {
                 display: flex;
                 flex-direction: row;
-                gap: 5px;
+                gap: 10px;
                 justify-content: center;
                 align-items: center;
 
