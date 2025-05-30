@@ -920,3 +920,22 @@ body {
         max-width: 100% !important;
     }
 }
+
+
+
+
+
+.elementor-carousel-image {
+    height: calc(100% - 20px);
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+    opacity: 0.35;
+    transition: all .3s ease-out;
+}
+.elementor-carousel-image {
+    opacity: 1;
+}
+.swiper-slide {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
