@@ -317,15 +317,26 @@ body {
 .tariff__block .tariff__block-bottom .tariff__left .tariff__left-descr {
   margin-bottom: 15px !important;
 }
+.tariff__block .tariff__block-bottom .tariff__left-price-block {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.tariff__block .tariff__block-bottom .tariff__left-price-block .price-old {
+  opacity: 0.5;
+  text-decoration-line: line-through;
+}
 .tariff__block .tariff__block-bottom .tariff_right {
   width: 100%;
-  height: auto;
+  height: 100%;
   overflow: hidden;
   border-radius: 20px;
 }
 .tariff__block .tariff__block-bottom .tariff_right img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
